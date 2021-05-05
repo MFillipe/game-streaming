@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:game_streamming/shared/rounded_button.dart';
 import 'package:game_streamming/utils/constants.dart';
+import 'package:game_streamming/shared/rounded_button.dart';
 import 'package:game_streamming/shared/custom_field.dart';
+import 'package:game_streamming/screens/master.dart';
 
 class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: kBackgroundColor,
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -53,7 +55,12 @@ class Login extends StatelessWidget {
                     )),
               ),
               RoundedButton(
-                  text: "Log In", color: kPrimaryColor, onPress: () {})
+                  text: "Log In",
+                  color: kPrimaryColor,
+                  onPress: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => Master()));
+                  })
             ],
           ),
         ),
