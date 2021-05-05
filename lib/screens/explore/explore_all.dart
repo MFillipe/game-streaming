@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
+import 'package:game_streamming/shared/category_item.dart';
 import 'package:game_streamming/shared/custom_filled_field.dart';
+import 'package:game_streamming/shared/popular_channel_item.dart';
 import 'package:game_streamming/shared/rounded_label.dart';
 
 class ExploreAll extends StatefulWidget {
@@ -131,6 +133,108 @@ class _ExploreAllState extends State<ExploreAll> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: buildPageIndicator(),
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.all(16),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "Popular channels",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold),
+                        ),
+                        Text(
+                          "Open all",
+                          style: TextStyle(
+                              color: Colors.grey[600],
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold),
+                        )
+                      ],
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(bottom: 16, left: 16, right: 16),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Expanded(
+                          child: PopularChannelItem(
+                            imageUrl: "assets/images/LEAGUE_OF_LEGENDS.jpg",
+                            name: "Jukes",
+                            variation: true,
+                          ),
+                        ),
+                        SizedBox(
+                          width: 16,
+                        ),
+                        Expanded(
+                          child: PopularChannelItem(
+                            imageUrl: "assets/images/LEAGUE_OF_LEGENDS.jpg",
+                            name: "Jukes",
+                            variation: true,
+                          ),
+                        ),
+                        SizedBox(
+                          width: 16,
+                        ),
+                        Expanded(
+                          child: PopularChannelItem(
+                            imageUrl: "assets/images/LEAGUE_OF_LEGENDS.jpg",
+                            name: "Jukes",
+                            variation: true,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.all(16),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "Top categories",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold),
+                        ),
+                        Text(
+                          "Open all",
+                          style: TextStyle(
+                              color: Colors.grey[600],
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold),
+                        )
+                      ],
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(bottom: 16, right: 16, left: 16),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        CategoryItem(
+                            imageUrl: "assets/images/LEAGUE_OF_LEGENDS.jpg",
+                            name: "MOBA"),
+                        SizedBox(
+                          width: 16,
+                        ),
+                        CategoryItem(
+                            imageUrl: "assets/images/LEAGUE_OF_LEGENDS.jpg",
+                            name: "FPS"),
+                        SizedBox(
+                          width: 16,
+                        ),
+                        CategoryItem(
+                            imageUrl: "assets/images/LEAGUE_OF_LEGENDS.jpg",
+                            name: "SPORTS"),
+                      ],
                     ),
                   )
                 ],
