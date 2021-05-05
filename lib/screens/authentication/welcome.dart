@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:game_streamming/utils/constants.dart';
+import 'package:game_streamming/shared/rounded_button.dart';
+import 'package:game_streamming/screens/authentication/login.dart';
+import 'package:game_streamming/screens/authentication/signup.dart';
 
 class Welcome extends StatelessWidget {
   @override
@@ -43,6 +46,28 @@ class Welcome extends StatelessWidget {
                             ],
                           ),
                         ),
+                      ),
+                      RoundedButton(
+                          text: "Log in",
+                          color: Colors.white12,
+                          onPress: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => Login()));
+                          }),
+                      SizedBox(
+                        height: 16,
+                      ),
+                      RoundedButton(
+                        text: "Sign Up",
+                        color: kPrimaryColor,
+                        onPress: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Signup()));
+                        },
                       )
                     ]))));
   }
