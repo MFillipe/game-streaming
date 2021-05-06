@@ -73,7 +73,7 @@ class _MasterState extends State<Master> {
                   setCurrentWidgetView(1);
                 }),
             BottomNavigationItem(
-                iconData: Icons.games,
+                iconData: Ionicons.ios_trophy,
                 selected: bottomNavigationItemStatus[2],
                 onPress: () {
                   setCurrentWidgetView(2);

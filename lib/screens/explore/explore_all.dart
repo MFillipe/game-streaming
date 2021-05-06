@@ -106,25 +106,22 @@ class _ExploreAllState extends State<ExploreAll> {
                       },
                       children: [
                         buildPage(
-                            "assets/images/LEAGUE_OF_LEGENDS.jpg",
-                            "assets/images/LEAGUE_OF_LEGENDS.jpg",
+                            "assets/images/jumayumi1.jpg",
+                            "assets/images/leagueoflegends.jpg",
                             "Live League of Legends",
-                            "ForeverYoungGaming"),
+                            "Jumayumi"),
+                        buildPage("assets/images/sev7n.jpg",
+                            "assets/images/fort.jpg", "Live Fortnite", "Sev7n"),
                         buildPage(
-                            "assets/images/FORTNITE.jpg",
-                            "assets/images/FORTNITE.jpg",
-                            "Live Fortnite Chill",
-                            "ForeverYoungGaming"),
+                            "assets/images/alanzoka.jpg",
+                            "assets/images/fallguys.jpg",
+                            "Live Fall guys",
+                            "Alanzoka"),
                         buildPage(
-                            "assets/images/FIFA.jpg",
-                            "assets/images/FIFA.jpg",
-                            "Live Fifa 21",
-                            "ForeverYoungGaming"),
-                        buildPage(
-                            "assets/images/FALL_GUYS.jpg",
-                            "assets/images/FALL_GUYS.jpg",
-                            "Live Fall Guys",
-                            "ForeverYoungGaming"),
+                            "assets/images/ninja.jpg",
+                            "assets/images/valorant.jpg",
+                            "Live Valorant",
+                            "Ninja"),
                       ],
                     ),
                   ),
@@ -164,7 +161,7 @@ class _ExploreAllState extends State<ExploreAll> {
                       children: [
                         Expanded(
                           child: PopularChannelItem(
-                            imageUrl: "assets/images/LEAGUE_OF_LEGENDS.jpg",
+                            imageUrl: "assets/images/jukes.jpg",
                             name: "Jukes",
                             variation: true,
                           ),
@@ -174,8 +171,8 @@ class _ExploreAllState extends State<ExploreAll> {
                         ),
                         Expanded(
                           child: PopularChannelItem(
-                            imageUrl: "assets/images/LEAGUE_OF_LEGENDS.jpg",
-                            name: "Jukes",
+                            imageUrl: "assets/images/alanzoka.jpg",
+                            name: "Alanzoka",
                             variation: true,
                           ),
                         ),
@@ -184,8 +181,8 @@ class _ExploreAllState extends State<ExploreAll> {
                         ),
                         Expanded(
                           child: PopularChannelItem(
-                            imageUrl: "assets/images/LEAGUE_OF_LEGENDS.jpg",
-                            name: "Jukes",
+                            imageUrl: "assets/images/jumayumi1.jpg",
+                            name: "Jumayumi1",
                             variation: true,
                           ),
                         ),
@@ -220,19 +217,18 @@ class _ExploreAllState extends State<ExploreAll> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         CategoryItem(
-                            imageUrl: "assets/images/LEAGUE_OF_LEGENDS.jpg",
-                            name: "MOBA"),
-                        SizedBox(
-                          width: 16,
-                        ),
-                        CategoryItem(
-                            imageUrl: "assets/images/LEAGUE_OF_LEGENDS.jpg",
+                            imageUrl: "assets/images/codwarzone.jpg",
                             name: "FPS"),
                         SizedBox(
                           width: 16,
                         ),
                         CategoryItem(
-                            imageUrl: "assets/images/LEAGUE_OF_LEGENDS.jpg",
+                            imageUrl: "assets/images/wow.jpg", name: "RPG"),
+                        SizedBox(
+                          width: 16,
+                        ),
+                        CategoryItem(
+                            imageUrl: "assets/images/fifa21.jpg",
                             name: "SPORTS"),
                       ],
                     ),
