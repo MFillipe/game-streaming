@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:game_streamming/utils/constants.dart';
 import 'package:game_streamming/screens/explore/explore_all.dart';
+import 'package:game_streamming/screens/explore/popular_channels.dart';
 
 class Explore extends StatefulWidget {
   @override
@@ -14,7 +15,24 @@ class _ExploreState extends State<Explore> {
   void initState() {
     super.initState();
     setState(() {
-      currentWidgetView = ExploreAll();
+      switchTo("explore_all");
+    });
+  }
+
+  switchTo(String widgetName) {
+    setState(() {
+      switch (widgetName) {
+        case "explore_all":
+          currentWidgetView = ExploreAll(onPress: () {
+            switchTo("popular_channels");
+          });
+          break;
+        case "popular_channels":
+          currentWidgetView = PopularChannels(onPress: () {
+            switchTo("explore_all");
+          });
+          break;
+      }
     });
   }
 
