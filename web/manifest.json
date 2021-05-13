@@ -1,6 +1,6 @@
 {
-    "name": "game_streamming",
-    "short_name": "game_streamming",
+    "name": "game_streaming",
+    "short_name": "game_streaming",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

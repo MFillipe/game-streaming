@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:game_streamming/screens/explore/explore.dart';
-import 'package:game_streamming/screens/search/search.dart';
-import 'package:game_streamming/screens/games/games.dart';
-import 'package:game_streamming/screens/profile/profile.dart';
-import 'package:game_streamming/utils/constants.dart';
-import 'package:game_streamming/shared/bottom_navigation_item.dart';
+import 'package:game_streaming/screens/explore/explore.dart';
+import 'package:game_streaming/screens/search/search.dart';
+import 'package:game_streaming/screens/games/games.dart';
+import 'package:game_streaming/screens/profile/profile.dart';
+import 'package:game_streaming/utils/constants.dart';
+import 'package:game_streaming/shared/bottom_navigation_item.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 
 class Master extends StatefulWidget {

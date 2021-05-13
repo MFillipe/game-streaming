@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:game_streamming/utils/constants.dart';
-import 'package:game_streamming/screens/explore/explore_all.dart';
-import 'package:game_streamming/screens/explore/popular_channels.dart';
+import 'package:game_streaming/utils/constants.dart';
+import 'package:game_streaming/screens/explore/explore_all.dart';
+import 'package:game_streaming/screens/explore/popular_channels.dart';
 
 class Explore extends StatefulWidget {
   @override

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
-import 'package:game_streamming/shared/category_item.dart';
-import 'package:game_streamming/shared/custom_filled_field.dart';
-import 'package:game_streamming/shared/popular_channel_item.dart';
-import 'package:game_streamming/shared/rounded_label.dart';
+import 'package:game_streaming/shared/category_item.dart';
+import 'package:game_streaming/shared/custom_filled_field.dart';
+import 'package:game_streaming/shared/popular_channel_item.dart';
+import 'package:game_streaming/shared/rounded_label.dart';
 
 class ExploreAll extends StatefulWidget {
   final Function onPress;

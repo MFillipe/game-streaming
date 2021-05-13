@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:game_streamming/utils/constants.dart';
-import 'package:game_streamming/shared/rounded_button.dart';
-import 'package:game_streamming/shared/custom_field.dart';
-import 'package:game_streamming/screens/master.dart';
+import 'package:game_streaming/utils/constants.dart';
+import 'package:game_streaming/shared/rounded_button.dart';
+import 'package:game_streaming/shared/custom_field.dart';
+import 'package:game_streaming/screens/master.dart';
 
 class Login extends StatelessWidget {
   @override

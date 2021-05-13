@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
-import 'package:game_streamming/shared/custom_field.dart';
-import 'package:game_streamming/shared/custom_filled_field.dart';
-import 'package:game_streamming/shared/popular_channel_item.dart';
+//import 'package:game_streaming/shared/custom_field.dart';
+import 'package:game_streaming/shared/custom_filled_field.dart';
+import 'package:game_streaming/shared/popular_channel_item.dart';
 
 class PopularChannels extends StatelessWidget {
   final Function onPress;
@@ -136,6 +136,10 @@ class PopularChannels extends StatelessWidget {
                   PopularChannelItem(
                       imageUrl: "assets/images/rubius.jpg",
                       name: "Rubius",
+                      variation: false),
+                  PopularChannelItem(
+                      imageUrl: "assets/images/sev7n.jpg",
+                      name: "Sev7n",
                       variation: false),
                   PopularChannelItem(
                       imageUrl: "assets/images/carolzinhasg.png",

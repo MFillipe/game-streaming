@@ -1,4 +1,4 @@
-# game_streamming
+# game_streaming
 
 A new Flutter project.
 
