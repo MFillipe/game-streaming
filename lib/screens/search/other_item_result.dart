@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:game_streaming/shared/rounded_label.dart';
+//import 'package:game_streaming/shared/rounded_label.dart';
 
 class OtherItemResult extends StatelessWidget {
   final String name;

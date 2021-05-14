@@ -122,10 +122,10 @@ class _ExploreAllState extends State<ExploreAll> {
                             "Live Fall guys",
                             "Alanzoka"),
                         buildPage(
-                            "assets/images/ninja.jpg",
+                            "assets/images/taco.jpg",
                             "assets/images/valorant.jpg",
                             "Live Valorant",
-                            "Ninja"),
+                            "Taco"),
                       ],
                     ),
                   ),
@@ -180,7 +180,7 @@ class _ExploreAllState extends State<ExploreAll> {
                         ),
                         Expanded(
                           child: PopularChannelItem(
-                            imageUrl: "assets/images/alanzoka.jpg",
+                            imageUrl: "assets/images/teest.jpg",
                             name: "Alanzoka",
                             variation: true,
                           ),
